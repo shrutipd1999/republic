@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn </title>
+    <style type="text/css">
+    #main-header{
+        text-align: center;
+        background-color: orangered;
+        font-size: 18px;
+    }
+    #main-footer{
+        text-align: center;
+        background-color: green;
+        
+        font-size: 18px;
+    }
+    #body-main{
+     
+        text-align: center;
+        background-color:white ;
+    }
+    </style>
+    
+</head>
+<body id="body-main">
+    
+    <header id="main-header">
+    <img src="logo.png" width="200px">
+    <h1>Republic day</h1><hr>
+    </header>
+    
+    <h2>Register for more details</h2>
+
+    <form action="connect.php" method="post">
+                <label >
+            First Name
+        </label>
+        <input type="text" name="firstname" placeholder="Enter first name">
+
+        <label>Last Name</label>
+        <input type="text" name="lastname"><br><br>
+        <label>
+            Email
+        </label>
+        <input type="Email" name="email">
+    
+        <label>
+            Gender
+        </label>
+
+        <select name="gender">
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+        </select>
+        <br><br>
+        <label>
+            Age
+        </label>
+        <input type="number"  name="age" value="30">
+        
+    
+         <br><br>
+        <input type="submit" name="submit" value="Submit">
+    </form> <hr>
+    <h2>
+        Thanks for registering
+    </h2>
+
+    <footer id="main-footer">
+
+        <img src="wish.png" width="200px">
+    </footer>   
+</body>
+</html>
